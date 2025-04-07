@@ -28,6 +28,7 @@
       kitty
       hyprpaper
       starship
+      dos2unix
   ];
   wayland.windowManager.hyprland = {
     enable = true;
