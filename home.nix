@@ -148,6 +148,12 @@
 	  lualine = {
             enable = true;
 	  };
+	  treesitter = {
+	    enable = true;
+            settings = {
+              highlight = { enable = true; };
+	    };
+	  };
 	  snacks = {
 	    enable = true;
 	    settings = {
