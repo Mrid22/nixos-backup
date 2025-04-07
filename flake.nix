@@ -15,7 +15,7 @@
     };
 
     hyprland.url = "github:hyprwm/Hyprland";
-    hello.url = "github:sbellen/fortanix-hello-world";
+    hello.url = "github:sbellem/fortanix-hello-world";
 
     gauntlet = {
       url = "github:project-gauntlet/gauntlet/v17";
