@@ -94,7 +94,7 @@
       enable = true;
       shellAliases = {
         c = "cd /etc/nixos/nixos-backup";
-        r = "sudo nixos-rebuild switch --flake /etc/nixos/nixos-backup/.";
+        r = "reload";
       };
     };
     kitty = {
