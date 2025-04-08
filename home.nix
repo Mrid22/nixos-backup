@@ -80,11 +80,12 @@
         "$mod, Q, exec, kitty"
 
         # Navigation
-         "$mod, H, movefocus, l"
-         "$mod, J, movefocus, d"
-         "$mod, K, movefocus, u"
-         "$mod, L, movefocus, r"
-        # Workspaces
+        "$mod, H, movefocus, l"
+        "$mod, J, movefocus, d"
+        "$mod, K, movefocus, u"
+        "$mod, L, movefocus, r"
+        
+	# Workspaces
         "$mod, 1, workspace, 1"
         "$mod, 2, workspace, 2"
         "$mod, 3, workspace, 3"
