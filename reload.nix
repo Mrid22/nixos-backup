@@ -2,6 +2,7 @@
 
 pkgs.writeShellScriptBin "reload" ''
     echo "Syncing with git"
+    ${pkgs.git}/bin/git pull
     read -p 'Commit Message: ' commitmsg
     ${pkgs.git}/bin/git add .
     ${pkgs.git}/bin/git commit -m "$commitmsg"
