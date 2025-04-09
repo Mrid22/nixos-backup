@@ -167,10 +167,6 @@
 	  lualine = {
             enable = true;
 	  };
-	  lazy = {
-            enable = true;
-	    plugins = ["stats"];
-	  };
 	  web-devicons = {
             enable = true;
 	  };
