@@ -165,9 +165,6 @@
 	  lualine = {
             enable = true;
 	  };
-	  barbar = {
-            enable = true;
-	  };
 	  web-devicons = {
             enable = true;
 	  };
@@ -213,6 +210,7 @@
               diagnostic = {};
 	      lspBuf = {
                 "<Space>ca" = "code_action";
+                "<Space>cf" = "format";
 	      };
 	    };
 	  };
