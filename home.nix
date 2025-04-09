@@ -123,7 +123,7 @@
       shellAliases = {
         c = "cd /etc/nixos/nixos-backup";
         r = "reload";
-	u = "sudo nixos-rebuild switch --recreate-lock-file --flake .";
+	u = "nix flake update";
       };
     };
     kitty = {
