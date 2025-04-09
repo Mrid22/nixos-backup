@@ -211,7 +211,7 @@
 	    keymaps = {
               diagnostic = {};
 	      lspBuf = {
-                <Space>ca = "code_action";
+                "<Space>ca" = "code_action";
 	      };
 	    };
 	  };
