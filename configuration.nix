@@ -86,7 +86,6 @@
     kdePackages.kio-extras
     kdePackages.dolphin
     kdePackages.ark
-    zsync
     (import ./reload.nix { inherit pkgs; })
   ];
   
