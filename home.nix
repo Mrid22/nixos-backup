@@ -6,28 +6,16 @@
     gauntlet.homeManagerModules.default
   ];
 
-  # Home Manager needs a bit of information about you and the paths it should
-  # manage.
   home.username = "mridula";
   home.homeDirectory = "/home/mridula";
 
-  # This value determines the Home Manager release that your configuration is
-  # compatible with. This helps avoid breakage when a new Home Manager release
-  # introduces backwards incompatible changes.
-  #
-  # You should not change this value, even if you update Home Manager. If you do
-  # want to update the value, then make sure to first check the Home Manager
-  # release notes.
-
-  # The home.packages option allows you to install Nix packages into your
-  # environment.
   home.packages = with pkgs; [
-      git
-      wl-clipboard
-      hyprland
-      kitty
-      hyprpaper
-      starship
+    git
+    wl-clipboard
+    hyprland
+    kitty
+    hyprpaper
+    starship
   ];
   wayland.windowManager.hyprland = {
     enable = true;
@@ -35,9 +23,9 @@
     settings = {
       exec-once = ["gauntlet"];
       general = {
-       border_size = "0";
-       gaps_in = "5";
-       gaps_out = "5";
+        border_size = "0";
+        gaps_in = "5";
+        gaps_out = "5";
       };
       decoration = {
         rounding = "10";
@@ -163,6 +151,9 @@
 	    mode = "n";
 	  }
 	];
+	vim.lsp.buf = {
+          "<Space>ca" = "code_action";
+	};
 	colorschemes.tokyonight = {
           enable = true;
 	  settings = {
@@ -175,6 +166,9 @@
 	};
 	plugins = {
 	  lualine = {
+            enable = true;
+	  };
+	  barbar = {
             enable = true;
 	  };
 	  treesitter = {
@@ -202,6 +196,20 @@
 	      terminal = {
                 enable = true;
 	      };
+	    };
+	  };
+	  # LSP
+	  lsp = {
+            enable = true;
+	    servers = {
+              basedpyright.enable = true;
+              css_variables.enable = true;
+              cssls.enable = true;
+              emmet_ls.enable = true;
+              eslint.enable = true;
+              gdscript.enable = true;
+              html.enable = true;
+              nixd.enable = true;
 	    };
 	  };
 	};
