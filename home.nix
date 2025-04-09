@@ -107,6 +107,9 @@
       wallpaper = ",/etc/nixos/nixos-backup/wallpaper.jpg";
     };
   };
+  gtk = {
+    enable = true;
+  };
   programs = {
     bash = {
       enable = true;
