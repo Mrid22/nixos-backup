@@ -168,6 +168,9 @@
 	  barbar = {
             enable = true;
 	  };
+	  webdevicons = {
+            enable = true;
+	  };
 	  treesitter = {
 	    enable = true;
             settings = {
@@ -204,7 +207,6 @@
               cssls.enable = true;
               emmet_ls.enable = true;
               eslint.enable = true;
-              gdscript.enable = true;
               html.enable = true;
               nixd.enable = true;
 	    };
