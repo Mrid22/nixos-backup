@@ -180,20 +180,23 @@
 	  snacks = {
 	    enable = true;
 	    settings = {
-              explorer = {
+	      dashboard = {
                 enable = true;
 	      };
-	      notifier = {
-	        enable = true;
-	      };
-	      indent = {
+              explorer = {
                 enable = true;
 	      };
 	      git = {
                enable = true;
 	      };
+	      indent = {
+                enable = true;
+	      };
 	      lazygit = {
                 enable = true;
+	      };
+	      notifier = {
+	        enable = true;
 	      };
 	      terminal = {
                 enable = true;
