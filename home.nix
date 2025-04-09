@@ -181,12 +181,10 @@
               highlight = { enable = true; };
 	    };
 	  };
+	  alpha = {enable = true;};
 	  snacks = {
 	    enable = true;
 	    settings = {
-	      dashboard = {
-                enable = true;
-	      };
               explorer = {
                 enable = true;
 	      };
