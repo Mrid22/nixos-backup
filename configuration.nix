@@ -86,6 +86,7 @@
     kdePackages.kio-extras
     kdePackages.dolphin
     kdePackages.ark
+    zsync
     (import ./reload.nix { inherit pkgs; })
   ];
   
@@ -105,6 +106,6 @@
       cores= 20;
     };
   };
-  system.stateVersion = "24.11";
+  system.stateVersion = "24.11"; # Did you read the comment?
 
 }
