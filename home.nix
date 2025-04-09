@@ -6,8 +6,10 @@
     gauntlet.homeManagerModules.default
   ];
 
-  home.username = "mridula";
-  home.homeDirectory = "/home/mridula";
+  home = {
+    username = "mridula";
+    homeDirectory = "/home/mridula";
+  };
 
   home.packages = with pkgs; [
     git
@@ -41,7 +43,7 @@
 	  "quick,0.15,0,0.1,1"
 	];
         animation = [
-          "global, 1, 10, default"
+        "global, 1, 10, default"
 	  "windows, 1, 4.79, easeOutQuint"
 	  "windowsIn, 1, 4.1, easeOutQuint, popin 87%"
 	  "windowsOut, 1, 1.49, linear, popin 87%"
