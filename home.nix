@@ -203,7 +203,6 @@
             enable = true;
 	    servers = {
               basedpyright.enable = true;
-              css_variables.enable = true;
               cssls.enable = true;
               emmet_ls.enable = true;
               eslint.enable = true;
