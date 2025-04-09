@@ -246,6 +246,7 @@
   #
   home.sessionVariables = {
     SUDO_EDITOR = "nvim";
+    EDITOR = "nvim";
     NR_CORES = 20;
   };
 
