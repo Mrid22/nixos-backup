@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, ... }:
+{ pkgs, inputs, ... }:
 
 {
   imports = with inputs; [
@@ -182,6 +182,9 @@
 	    settings = {
               explorer = {
                 enable = true;
+	      };
+	      notifier = {
+	        enable = true;
 	      };
 	      indent = {
                 enable = true;
