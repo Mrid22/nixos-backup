@@ -151,9 +151,6 @@
 	    mode = "n";
 	  }
 	];
-	vim.lsp.buf = {
-          "<Space>ca" = "code_action";
-	};
 	colorschemes.tokyonight = {
           enable = true;
 	  settings = {
@@ -210,6 +207,12 @@
               gdscript.enable = true;
               html.enable = true;
               nixd.enable = true;
+	    };
+	    keymaps = {
+              diagnostic = {};
+	      lspBuf = {
+                <Space>ca = "code_action";
+	      };
 	    };
 	  };
 	};
