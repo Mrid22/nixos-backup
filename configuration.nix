@@ -79,6 +79,10 @@
 
   programs.hyprland.enable = true;
   programs.hyprland.package = inputs.hyprland.packages."${pkgs.system}".hyprland;
+  programs.steam = {
+    enable = true;
+
+  };
   environment.systemPackages = with pkgs; [
     home-manager
     kdePackages.qtsvg
