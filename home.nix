@@ -123,7 +123,7 @@
       shellAliases = {
         c = "cd /etc/nixos/nixos-backup";
         r = "reload";
-	u = "nix flake update";
+	u = "update";
       };
     };
     kitty = {
