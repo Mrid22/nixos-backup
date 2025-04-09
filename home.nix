@@ -177,10 +177,6 @@
               highlight = { enable = true; };
 	    };
 	  };
-	  alpha = {
-	    enable = true;
-	    theme = "dashboard";
-          };
 	  snacks = {
 	    enable = true;
 	    settings = {
