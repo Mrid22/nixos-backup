@@ -168,7 +168,7 @@
 	  barbar = {
             enable = true;
 	  };
-	  webdevicons = {
+	  web-devicons = {
             enable = true;
 	  };
 	  treesitter = {
