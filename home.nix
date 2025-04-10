@@ -201,19 +201,19 @@
                 enable = true;
 	      };
 	      git = {
-               enable = true;
+          enable = true;
 	      };
 	      indent = {
-                enable = true;
+          enable = true;
 	      };
 	      lazygit = {
-                enable = true;
+          enable = true;
 	      };
 	      notifier = {
 	        enable = true;
 	      };
 	      terminal = {
-                enable = true;
+          enable = true;
 	      };
 	    };
 	  };
