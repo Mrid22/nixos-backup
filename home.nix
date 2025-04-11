@@ -130,7 +130,7 @@
       shellAliases = {
         c = "cd /etc/nixos/nixos-backup";
         r = "reload";
-	      u = "update";
+        u = "update";
       };
     };
     kitty = {
@@ -226,6 +226,7 @@
               emmet_ls.enable = true;
               eslint.enable = true;
               html.enable = true;
+              ts_ls.enable = true;
               nixd.enable = true;
 	    };
 	    keymaps = {
