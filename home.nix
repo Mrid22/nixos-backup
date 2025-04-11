@@ -240,6 +240,9 @@
 	      };
 	    };
 	  };
+	  cmp-nvim-lsp = {
+            enable = true;
+	  };
 	  cmp = {
             autoEnableSources = true;
 	    settings.sources = [
