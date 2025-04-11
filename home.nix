@@ -242,11 +242,11 @@
 	  };
 	  cmp = {
             autoEnableSources = true;
-	    settings.sources = {
+	    settings.sources = [
               { name = "nvim_lsp"; }
               { name = "path"; }
               { name = "buffer"; }
-	    };
+	    ];
 	  };
 	  none-ls = {
             sources = {
