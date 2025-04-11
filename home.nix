@@ -241,7 +241,6 @@
               formatting = {
                 prettier ={
 		  enable = true;
-		  disableTsServerFormatter = true;
 		  };
 	      };
 	    };
