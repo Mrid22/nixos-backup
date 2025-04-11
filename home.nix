@@ -240,9 +240,6 @@
 	      };
 	    };
 	  };
-	  cmp-nvim-lsp = {
-            enable = true;
-	  };
 	  cmp = {
             autoEnableSources = true;
 	    settings.sources = [
@@ -250,6 +247,9 @@
               { name = "path"; }
               { name = "buffer"; }
 	    ];
+	  };
+	  cmp-nvim-lsp = {
+            enable = true;
 	  };
 	  none-ls = {
             sources = {
