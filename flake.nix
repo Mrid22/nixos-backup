@@ -22,7 +22,7 @@
     };
   };
 
-  outputs = { nixpkgs, home-manager, gauntlet, ... } @ inputs: 
+  outputs = { nixpkgs, home-manager, gauntlet, nvf, ... } @ inputs: 
   let
     system = "x86_64-linux";
     pkgs = nixpkgs.legacyPackages.${system};

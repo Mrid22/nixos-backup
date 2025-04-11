@@ -3,6 +3,7 @@
 {
   imports = with inputs; [
     gauntlet.homeManagerModules.default
+    nvf.homeManagerModules.default
   ];
 
   home = {
@@ -152,6 +153,15 @@
       enable = true;
       service.enable = true;
       config = {};
+    };
+    nvf = {
+      vim  = {
+        viAlias = true;
+	vimAlias = true;
+	lsp = {
+          enable = true;
+	};
+      };
     };
   };
  
