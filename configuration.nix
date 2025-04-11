@@ -100,7 +100,7 @@
       mridula = import ./home.nix;
     };
   };
-
+  programs.neovim.enable = true;
   # nix package manager
   nix = {
     settings = {
