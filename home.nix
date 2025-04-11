@@ -2,7 +2,6 @@
 
 {
   imports = with inputs; [
-    nixvim.homeManagerModules.nixvim
     gauntlet.homeManagerModules.default
   ];
 
@@ -148,13 +147,6 @@
     };
     lazygit = {
       enable = true;
-    };
-    nixvim = {
-      config = {
-        enable = true;
-	viAlias = true;
-	vimAlias = true;
-      };
     };
     gauntlet = {
       enable = true;

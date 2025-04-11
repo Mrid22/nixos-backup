@@ -9,13 +9,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    nixvim = {
-      url = "github:nix-community/nixvim";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     hyprland.url = "github:hyprwm/Hyprland";
-    hello.url = "github:sbellem/fortanix-hello-world";
 
     gauntlet = {
       url = "github:project-gauntlet/gauntlet/v17";
@@ -23,7 +17,7 @@
     };
   };
 
-  outputs = { nixpkgs, home-manager, nixvim, gauntlet, ... } @ inputs: 
+  outputs = { nixpkgs, home-manager, gauntlet, ... } @ inputs: 
   let
     system = "x86_64-linux";
     pkgs = nixpkgs.legacyPackages.${system};
