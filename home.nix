@@ -168,6 +168,7 @@
             enable = true;
             name = "tokyonight";
             style = "storm";
+            transparent = true;
           };
           lsp = {
             formatOnSave = true;
@@ -187,6 +188,7 @@
             ts.enable = true;
             html.enable = true;
             css.enable = true;
+            tailwind.enable = true;
             bash.enable = true;
             python.enable = true;
           };
