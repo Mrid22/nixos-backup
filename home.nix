@@ -167,6 +167,7 @@
             name = "tokyonight";
             style = "storm-transparent";
           };
+          icons.enable = true;
           lsp = {
             enable = true;
           };
