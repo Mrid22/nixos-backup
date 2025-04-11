@@ -179,6 +179,9 @@
               ui.enable = true;
             };
           };
+          visuals = {
+            nvim-web-devicons.enable = true;
+          };
           languages = {
             enableLSP = true;
             enableFormat = true;
