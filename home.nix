@@ -167,17 +167,19 @@
             name = "tokyonight";
             style = "storm-transparent";
           };
-          icons.enable = true;
           lsp = {
-            enable = true;
+            formatOnSave = true;
           };
           languages = {
             enableLSP = true;
+            enableFormat = true;
             enableTreesitter = true;
 
             nix.enable = true;
             ts.enable = true;
             html.enable = true;
+            css.enable = true;
+            bash.enable = true;
             python.enable = true;
           };
         };
