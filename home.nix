@@ -162,6 +162,11 @@
           vimAlias = true;
           statusline.lualine.enable = true;
           autocomplete.nvim-cmp.enable = true;
+          theme = {
+            enable = true;
+            name = "tokyonight";
+            style = "storm";
+          };
           lsp = {
             enable = true;
           };
