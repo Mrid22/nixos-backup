@@ -155,6 +155,7 @@
       config = {};
     };
     nvf = {
+      enable = true;
       vim  = {
         viAlias = true;
 	vimAlias = true;
