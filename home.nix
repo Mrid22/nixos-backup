@@ -18,6 +18,7 @@
     kitty
     hyprpaper
     starship
+    prettierd
   ];
   wayland.windowManager.hyprland = {
     enable = true;
@@ -239,8 +240,9 @@
 	  none-ls = {
             sources = {
               formatting = {
-                prettier ={
+                prettier = {
 		  enable = true;
+		  disableTsServerFormatter = true;
 		  };
 	      };
 	    };
