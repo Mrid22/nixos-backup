@@ -165,7 +165,7 @@
           theme = {
             enable = true;
             name = "tokyonight";
-            style = "storm";
+            style = "storm-transparent";
           };
           lsp = {
             enable = true;
