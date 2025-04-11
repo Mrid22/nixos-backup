@@ -240,6 +240,14 @@
 	      };
 	    };
 	  };
+	  cmp = {
+            autoEnableSources = true;
+	    settings.sources = {
+              { name = "nvim_lsp"; }
+              { name = "path"; }
+              { name = "buffer"; }
+	    };
+	  };
 	  none-ls = {
             sources = {
               formatting = {
@@ -257,6 +265,7 @@
             enable = true;
 	    fromVscode = [ {} ];
 	  };
+
 	};
       };
     };
