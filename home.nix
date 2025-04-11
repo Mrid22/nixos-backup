@@ -163,10 +163,8 @@
           viAlias = true;
           vimAlias = true;
           statusline.lualine.enable = true;
-          autocomplete = {
-            nvim-cmp.enable = true;
-            nvim-autopairs.enable = true;
-          };
+          autopairs.nvim-autopairs.enable = true;
+          autocomplete.nvim-cmp.enable = true;
           theme = {
             enable = true;
             name = "tokyonight";
