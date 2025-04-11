@@ -163,6 +163,14 @@
           lsp = {
             enable = true;
           };
+          languages = {
+            enableLSP = true;
+            enableTreesitter = true;
+            nix.enable = true;
+            ts.enable = true;
+            html.enable = true;
+            python.enable = true;
+          };
         };
       };
     };
