@@ -185,6 +185,9 @@
 	  lualine = {
             enable = true;
 	  };
+	  tailwind-tools = {
+            enable = true;
+	  };
 	  web-devicons = {
             enable = true;
 	  };
