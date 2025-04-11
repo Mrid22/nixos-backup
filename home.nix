@@ -217,7 +217,6 @@
 	      };
 	    };
 	  };
-	  # LSP
 	  lsp = {
             enable = true;
 	    servers = {
@@ -234,6 +233,16 @@
 	      lspBuf = {
                 "<Space>ca" = "code_action";
                 "<Space>cf" = "format";
+	      };
+	    };
+	  };
+	  none-ls = {
+            sources = {
+              formatting = {
+                prettier ={
+		  enable = true;
+		  disableTsServerFormatter = true;
+		  };
 	      };
 	    };
 	  };
