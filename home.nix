@@ -159,6 +159,10 @@
     };
     nvf = {
       enable = true;
+      options = {
+        tabstop = 2;
+        shiftwidth = 2;
+      };
       settings = {
         vim = {
           viAlias = true;
