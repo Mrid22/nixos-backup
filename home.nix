@@ -187,7 +187,7 @@
             mappings = {
               buffers = "<leader>fb";
               findFiles = "<leade>ff";
-              liveGrep = "<leade>ff";
+              liveGrep = "<leade>fg";
             };
           };
           theme = {
