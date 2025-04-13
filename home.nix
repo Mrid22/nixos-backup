@@ -161,10 +161,21 @@
       enable = true;
       settings = {
         vim = {
+          lineNumberMode = "number";
+          globals = {
+            mapleader = " ";
+          };
           options = {
             tabstop = 2;
             shiftwidth = 2;
           };
+          keymaps = [
+            {
+              key = "<leader>e";
+              mode = "n";
+              action = ":Neotree";
+            }
+          ];
           viAlias = true;
           vimAlias = true;
           statusline.lualine.enable = true;
