@@ -17,11 +17,12 @@
     git
     wl-clipboard
     hyprland
-    kitty
     hyprpaper
+    kitty
     starship
     swaynotificationcenter
     prettierd
+    waybar
   ];
   wayland.windowManager.hyprland = {
     enable = true;
@@ -161,6 +162,8 @@
       enable = true;
       settings = {
         vim = {
+          viAlias = true;
+          vimAlias = true;
           lineNumberMode = "none";
           globals = {
             mapleader = " ";
@@ -176,11 +179,17 @@
               action = ":Neotree<CR>";
             }
           ];
-          viAlias = true;
-          vimAlias = true;
           statusline.lualine.enable = true;
           autopairs.nvim-autopairs.enable = true;
           autocomplete.nvim-cmp.enable = true;
+          telescope = {
+            enable = true;
+            mappings = {
+              buffers = "<leader>fb";
+              findFiles = "<leade>ff";
+              liveGrep = "<leade>ff";
+            };
+          };
           theme = {
             enable = true;
             name = "tokyonight";
