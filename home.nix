@@ -159,12 +159,12 @@
     };
     nvf = {
       enable = true;
-      options = {
-        tabstop = 2;
-        shiftwidth = 2;
-      };
       settings = {
         vim = {
+          options = {
+            tabstop = 2;
+            shiftwidth = 2;
+          };
           viAlias = true;
           vimAlias = true;
           statusline.lualine.enable = true;
