@@ -186,6 +186,12 @@
             name = "tokyonight";
             style = "storm";
             transparent = true;
+            extraConfig = ''
+              styles = {
+                sidebars = "transparent";
+                floats = "transparent";
+              }
+            '';
           };
           lsp = {
             lspkind.enable = true;
