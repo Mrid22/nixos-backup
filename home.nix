@@ -20,6 +20,7 @@
     kitty
     hyprpaper
     starship
+    swaynotificationcenter
     prettierd
   ];
   wayland.windowManager.hyprland = {
@@ -139,7 +140,7 @@
     kitty = {
       enable = true;
       extraConfig = ''
-        background_opacity 0.5
+        background_opacity 0.25
         confirm_os_window_close 0
       '';
     };
@@ -182,6 +183,11 @@
           };
           visuals = {
             nvim-web-devicons.enable = true;
+          };
+          filetree = {
+            neo-tree = {
+              enable = true;
+            };
           };
           languages = {
             enableLSP = true;
