@@ -1,15 +1,17 @@
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
-
-{ config, pkgs, inputs, ... }:
-
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-      inputs.home-manager.nixosModules.home-manager
-    ];
+  config,
+  pkgs,
+  inputs,
+  ...
+}: {
+  imports = [
+    # Include the results of the hardware scan.
+    ./hardware-configuration.nix
+    inputs.home-manager.nixosModules.home-manager
+  ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -70,18 +72,15 @@
   users.users.mridula = {
     isNormalUser = true;
     description = "Mridul Agarwal";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = ["networkmanager" "wheel"];
   };
 
-
-# Apps
-
+  # Apps
 
   programs.hyprland.enable = true;
   programs.hyprland.package = inputs.hyprland.packages."${pkgs.system}".hyprland;
   programs.steam = {
     enable = true;
-
   };
   environment.systemPackages = with pkgs; [
     home-manager
@@ -91,11 +90,11 @@
     kdePackages.dolphin
     kdePackages.ark
     zsync
-    (import ./reload.nix { inherit pkgs; })
+    (import ./reload.nix {inherit pkgs;})
   ];
-  
+
   home-manager = {
-    extraSpecialArgs = { inherit inputs; };
+    extraSpecialArgs = {inherit inputs;};
     users = {
       mridula = import ./home.nix;
     };
@@ -104,12 +103,11 @@
   # nix package manager
   nix = {
     settings = {
-      experimental-features =  [ "nix-command" "flakes" ];
-      trusted-users =  [ "root" "mridula" ];
-      max-jobs= 20;
-      cores= 20;
+      experimental-features = ["nix-command" "flakes"];
+      trusted-users = ["root" "mridula"];
+      max-jobs = 20;
+      cores = 20;
     };
   };
   system.stateVersion = "24.11"; # Did you read the comment?
-
 }
