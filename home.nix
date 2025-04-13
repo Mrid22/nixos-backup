@@ -187,9 +187,9 @@
             style = "storm";
             transparent = true;
             extraConfig = ''
-              styles = {
-                sidebars = "transparent";
-                floats = "transparent";
+              styles = {\n
+                sidebars = "transparent";\n
+                floats = "transparent";\n
               }
             '';
           };
