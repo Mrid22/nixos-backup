@@ -173,7 +173,7 @@
             {
               key = "<leader>e";
               mode = "n";
-              action = ":Neotree";
+              action = ":Neotree<CR>";
             }
           ];
           viAlias = true;
