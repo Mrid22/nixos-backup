@@ -161,7 +161,7 @@
       enable = true;
       settings = {
         vim = {
-          lineNumberMode = "number";
+          lineNumberMode = "none";
           globals = {
             mapleader = " ";
           };
@@ -186,7 +186,6 @@
             name = "tokyonight";
             style = "storm";
             transparent = true;
-            extraConfig = "styles={sidebars = \"transparent\", floats = \"transparent\"},";
           };
           lsp = {
             lspkind.enable = true;
