@@ -173,7 +173,12 @@
             transparent = true;
           };
           lsp = {
+            lspkind.enable = true;
+            lightbulb.enable = true;
             formatOnSave = true;
+          };
+          comments = {
+            commentt-nvim.enable = true;
           };
           debugger = {
             nvim-dap = {
@@ -181,6 +186,7 @@
               ui.enable = true;
             };
           };
+          spellcheck.enable = true;
           visuals = {
             nvim-web-devicons.enable = true;
           };
