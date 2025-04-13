@@ -175,6 +175,11 @@
               mode = "n";
               action = ":Neotree<CR>";
             }
+            {
+              key = "<leader>ca";
+              mode = "n";
+              action = "vim.lsp.buf.format";
+            }
           ];
           viAlias = true;
           vimAlias = true;
