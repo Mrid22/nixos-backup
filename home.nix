@@ -178,7 +178,7 @@
             formatOnSave = true;
           };
           comments = {
-            commentt-nvim.enable = true;
+            comment-nvim.enable = true;
           };
           debugger = {
             nvim-dap = {
