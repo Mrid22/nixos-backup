@@ -177,6 +177,9 @@
           viAlias = true;
           vimAlias = true;
           lineNumberMode = "none";
+          assistant = {
+            codecompanion-nvim.enable = true;
+          };
           dashboard = {
             alpha = {
               enable = true;
