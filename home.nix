@@ -65,6 +65,11 @@
           "workspacesOut, 1, 1.94, almostLinear, slide"
         ];
       };
+      input = {
+        touchpad = {
+          natural_scroll = true;
+        };
+      };
       "$mod" = "ALT";
       bind = [
         # Apps
