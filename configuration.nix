@@ -52,8 +52,8 @@
       };
     };
     printing.enable = true;
+    pulseaudio.enable = false;
     pipewire = {
-      pulseaudio.enable = false;
       enable = true;
       alsa.enable = true;
       alsa.support32Bit = true;
