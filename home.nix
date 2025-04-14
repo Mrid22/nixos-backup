@@ -165,6 +165,12 @@
           viAlias = true;
           vimAlias = true;
           lineNumberMode = "none";
+          dashboard = {
+            alpha = {
+              enable = true;
+              theme = "startify";
+            };
+          };
           globals = {
             mapleader = " ";
           };
