@@ -168,7 +168,7 @@
           dashboard = {
             alpha = {
               enable = true;
-              theme = "startify";
+              theme = "dashboard";
             };
           };
           globals = {
