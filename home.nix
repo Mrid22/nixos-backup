@@ -28,7 +28,7 @@
     enable = true;
     xwayland.enable = true;
     settings = {
-      exec-once = ["gauntlet"];
+      exec-once = ["gauntlet" "waybar"];
       general = {
         border_size = "0";
         gaps_in = "5";
