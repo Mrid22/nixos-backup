@@ -39,8 +39,8 @@
     flatpak.enable = true;
     keyd = {
       enable = true;
-      capstoesc = {
-        default = {
+      keyboards = {
+        capstoesc = {
           ids = ["*"];
           settings = {
             main = {
