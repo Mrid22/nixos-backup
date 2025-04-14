@@ -35,7 +35,7 @@
 
   fonts.packages = with pkgs; [
     nerd-fonts.fira-code
-  ]
+  ];
 
   # Enable the X11 windowing system.
   services = {
