@@ -1,6 +1,6 @@
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
-# and in the NixOS manual (accessible by running ‘nixos-help’).
+# and in the Nix OS manual (accessible by running ‘nixos-help’).
 {
   config,
   pkgs,
@@ -35,11 +35,25 @@
 
   # Enable the X11 windowing system.
   services = {
-    printing.enable = true;
     blueman.enable = true;
     flatpak.enable = true;
-    pulseaudio.enable = false;
+    keyd = {
+      enable = true;
+      capstoesc = {
+        default = {
+          ids = [ "*" ];
+          settings = {
+            main = {
+              capslock = "overload(control, esc)";
+              esc = "capslock"
+            };
+          };
+        };
+      };
+    };
     pipewire = {
+    printing.enable = true;
+    pulseaudio.enable = false;
       enable = true;
       alsa.enable = true;
       alsa.support32Bit = true;
@@ -77,10 +91,15 @@
 
   # Apps
 
-  programs.hyprland.enable = true;
-  programs.hyprland.package = inputs.hyprland.packages."${pkgs.system}".hyprland;
-  programs.steam = {
-    enable = true;
+  programs = {
+    hyprland = {
+      enable = true;
+      package = inputs.hyprland.packages."${pkgs.system}".hyprland;
+    };
+    steam = {
+      enable = true;
+    };
+    neovim.enable = true;
   };
   environment.systemPackages = with pkgs; [
     home-manager
@@ -99,7 +118,6 @@
       mridula = import ./home.nix;
     };
   };
-  programs.neovim.enable = true;
   # nix package manager
   nix = {
     settings = {
