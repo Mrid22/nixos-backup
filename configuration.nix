@@ -33,6 +33,10 @@
   # Select internationalisation properties.
   i18n.defaultLocale = "en_HK.UTF-8";
 
+  fonts.packages = with pkgs; [
+    nerd-fonts.fira-code
+  ]
+
   # Enable the X11 windowing system.
   services = {
     blueman.enable = true;
