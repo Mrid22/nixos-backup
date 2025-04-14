@@ -110,6 +110,7 @@
     kdePackages.ark
     zsync
     (import ./reload.nix {inherit pkgs;})
+    (import ./update.nix {inherit pkgs;})
   ];
 
   home-manager = {
