@@ -155,6 +155,9 @@
       userName = "Mrid22";
       userEmail = "mridulaga@outlook.com";
     };
+    waybar = {
+      enable = true;
+    };
     lazygit = {
       enable = true;
     };
