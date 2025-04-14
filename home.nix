@@ -238,6 +238,13 @@
               enable = true;
             };
           };
+          treesitter = {
+            enable = true;
+            autotagHtml = true;
+            fold = true;
+            indent.enable = true;
+            highlight.enable = true;
+          };
           languages = {
             enableLSP = true;
             enableFormat = true;
