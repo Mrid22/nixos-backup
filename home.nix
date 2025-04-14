@@ -158,7 +158,9 @@
     waybar = {
       enable = true;
       settings = [];
-      style = [];
+      style = ''
+
+      '';
     };
     lazygit = {
       enable = true;
