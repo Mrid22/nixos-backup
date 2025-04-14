@@ -41,19 +41,19 @@
       enable = true;
       capstoesc = {
         default = {
-          ids = [ "*" ];
+          ids = ["*"];
           settings = {
             main = {
               capslock = "overload(control, esc)";
-              esc = "capslock"
+              esc = "capslock";
             };
           };
         };
       };
     };
     pipewire = {
-    printing.enable = true;
-    pulseaudio.enable = false;
+      printing.enable = true;
+      pulseaudio.enable = false;
       enable = true;
       alsa.enable = true;
       alsa.support32Bit = true;
