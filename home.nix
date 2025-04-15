@@ -243,14 +243,6 @@
             };
           };
           git.enable = true;
-          notes = {
-            obsidian = {
-              enable = true;
-              setupOpts = {
-                completion.nvim_cmp = true;
-              };
-            };
-          };
           notify.nvim-notify.enable = true;
           treesitter = {
             enable = true;
