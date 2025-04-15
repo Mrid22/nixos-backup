@@ -113,6 +113,7 @@
     kdePackages.dolphin
     kdePackages.ark
     zsync
+    brightnessctl
     (import ./reload.nix {inherit pkgs;})
     (import ./update.nix {inherit pkgs;})
   ];
