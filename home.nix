@@ -229,7 +229,14 @@
           debugger = {
             nvim-dap = {
               enable = true;
-              ui.enable = true;
+              ui = {
+                eanble = true;
+                autoStart = true;
+              };
+              mappings = {
+                continue = "<leader>dc";
+                toggleBreakpoint = "<leader>dt";
+              };
             };
           };
           spellcheck.enable = true;
