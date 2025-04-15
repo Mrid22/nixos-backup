@@ -150,6 +150,9 @@
         confirm_os_window_close 0
       '';
     };
+    starship = {
+      enable = true;
+    };
     git = {
       enable = true;
       userName = "Mrid22";
@@ -281,10 +284,11 @@
             };
           };
           lsp = {
+            formatOnSave = true;
             inlayHints.enable = true;
             lspkind.enable = true;
             lightbulb.enable = true;
-            formatOnSave = true;
+            trouble.enable = true;
             mappings = {
               codeAction = "<leader>ca";
               renameSymbol = "<leader>rn";
