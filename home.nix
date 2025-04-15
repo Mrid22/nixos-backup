@@ -217,14 +217,6 @@
             style = "storm";
             transparent = true;
           };
-          lsp = {
-            lspkind.enable = true;
-            lightbulb.enable = true;
-            formatOnSave = true;
-            mappings = {
-              codeAction = "<leader>ca";
-            };
-          };
           comments = {
             comment-nvim.enable = true;
           };
@@ -251,6 +243,15 @@
             };
           };
           git.enable = true;
+          notes = {
+            obsidian = {
+              enable = true;
+              setupOpts = {
+                completion.nvim_cmp = true;
+              };
+            };
+          };
+          notify.nvim-notify.enable = true;
           treesitter = {
             enable = true;
             autotagHtml = true;
@@ -262,14 +263,37 @@
             enableLSP = true;
             enableFormat = true;
             enableTreesitter = true;
+            enableDAP = true;
 
-            nix.enable = true;
-            ts.enable = true;
-            html.enable = true;
-            css.enable = true;
-            tailwind.enable = true;
             bash.enable = true;
+            css.enable = true;
+            html.enable = true;
+            markdown = {
+              enable = true;
+              extensions = {
+                render-markdown-nvim.enable = true;
+              };
+            };
+            nix.enable = true;
             python.enable = true;
+            rust.enable = true;
+            tailwind.enable = true;
+            ts = {
+              enable = true;
+              extensions = {
+                ts-error-translator.enable = true;
+              };
+            };
+          };
+          lsp = {
+            inlayHints.enable = true;
+            lspkind.enable = true;
+            lightbulb.enable = true;
+            formatOnSave = true;
+            mappings = {
+              codeAction = "<leader>ca";
+              renameSymbol = "<leader>rn";
+            };
           };
         };
       };
