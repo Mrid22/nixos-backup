@@ -230,7 +230,7 @@
             nvim-dap = {
               enable = true;
               ui = {
-                eanble = true;
+                enable = true;
                 autoStart = true;
               };
               mappings = {
