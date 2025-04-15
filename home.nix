@@ -237,9 +237,6 @@
                 continue = "<leader>dc";
                 toggleBreakpoint = "<leader>dt";
               };
-              sources = {
-                python = "nvim-dap-python";
-              };
             };
           };
           spellcheck.enable = true;
