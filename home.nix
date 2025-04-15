@@ -267,7 +267,10 @@
               };
             };
             nix.enable = true;
-            python.enable = true;
+            python = {
+              enable = true;
+              format.type = "black-and-isort";
+            };
             rust.enable = true;
             tailwind.enable = true;
             ts = {
