@@ -180,7 +180,6 @@
           assistant = {
             codecompanion-nvim.enable = true;
           };
-          fzf-lua.enable = true;
           dashboard = {
             alpha = {
               enable = true;
