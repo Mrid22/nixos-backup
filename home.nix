@@ -176,7 +176,16 @@
         vim = {
           viAlias = true;
           vimAlias = true;
+          # Settings
           lineNumberMode = "none";
+          globals = {
+            mapleader = " ";
+          };
+          options = {
+            tabstop = 2;
+            shiftwidth = 2;
+          };
+          # Plugins
           assistant = {
             codecompanion-nvim.enable = true;
           };
@@ -185,13 +194,6 @@
               enable = true;
               theme = "dashboard";
             };
-          };
-          globals = {
-            mapleader = " ";
-          };
-          options = {
-            tabstop = 2;
-            shiftwidth = 2;
           };
           keymaps = [
             {
@@ -248,6 +250,7 @@
               enable = true;
             };
           };
+          git.enable = true;
           treesitter = {
             enable = true;
             autotagHtml = true;
