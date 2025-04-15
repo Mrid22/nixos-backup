@@ -107,6 +107,9 @@
         "$mod SHIFT, 8, movetoworkspace, 8"
         "$mod SHIFT, 9, movetoworkspace, 9"
         "$mod SHIFT, 0, movetoworkspace, 10"
+
+        # Volume and Brightness
+        ",XF86AudioRaiseVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"
       ];
     };
   };
