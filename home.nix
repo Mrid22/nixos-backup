@@ -238,7 +238,7 @@
                 toggleBreakpoint = "<leader>dt";
               };
               sources = {
-                python = "nvim-dap-python"
+                python = "nvim-dap-python";
               };
             };
           };
