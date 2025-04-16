@@ -15,6 +15,7 @@
     packages = with pkgs; [
       git
       wl-clipboard
+      xsel
       hyprland
       hyprpaper
       hyprlock
