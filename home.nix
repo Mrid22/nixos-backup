@@ -285,6 +285,15 @@
               buffers = "<leader>fb";
             };
           };
+          terminal.toggleterm = {
+            enable = true;
+            lazygit = {
+              enable = true;
+            };
+            mappings = {
+              open = "<leader>t"
+            };
+          };
           theme = {
             enable = true;
             name = "tokyonight";
