@@ -21,6 +21,7 @@
       hyprlock
       kitty
       starship
+      mako
       swaynotificationcenter
       prettierd
       waybar
