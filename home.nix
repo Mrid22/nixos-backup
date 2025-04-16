@@ -288,8 +288,8 @@
             enable = true;
             name = "tokyonight";
             style = "storm";
-            transparent = true;
             extraConfig = ''
+              transparent = true;
               require('tokyonight').setup {
                 styles = {
                   sidebars = "transparent",
