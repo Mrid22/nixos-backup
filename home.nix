@@ -28,6 +28,7 @@
       prismlauncher
       nodejs_23
       pnpm
+      spotube
     ];
   };
 
