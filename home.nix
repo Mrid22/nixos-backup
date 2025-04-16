@@ -17,6 +17,7 @@
       wl-clipboard
       hyprland
       hyprpaper
+      hyprlock
       kitty
       starship
       swaynotificationcenter
@@ -125,6 +126,9 @@
       preload = "/etc/nixos/nixos-backup/wallpaper.jpg";
       wallpaper = ",/etc/nixos/nixos-backup/wallpaper.jpg";
     };
+  };
+  hyprlock = {
+    enable = true;
   };
   gtk = {
     enable = true;
