@@ -264,7 +264,7 @@
           };
           # Plugins
           assistant = {
-            codecompanion = {
+            codecompanion-nvim = {
               enable = true;
             };
             copilot = {
