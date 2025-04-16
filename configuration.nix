@@ -37,7 +37,7 @@
     font-awesome
     nerd-fonts.fira-code
     powerline-symbols
-    noto-fonts-enoji
+    noto-fonts-emoji
     noto-fonts-cjk
     noto-fonts
   ];
