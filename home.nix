@@ -23,6 +23,7 @@
       swaynotificationcenter
       prettierd
       waybar
+      lunar-client
     ];
   };
 
