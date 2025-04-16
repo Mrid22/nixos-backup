@@ -289,6 +289,12 @@
             name = "tokyonight";
             style = "storm";
             transparent = true;
+            extraConfig = ''
+              styles = {
+                sidebars = "transparent",
+                floats = "transparent",
+              }
+            ''
           };
           comments = {
             comment-nvim.enable = true;
