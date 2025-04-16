@@ -292,8 +292,8 @@
             extraConfig = ''
               opts = {
                 styles = {
-                  sidebars = "dark",
-                  floats = "dark",
+                  sidebars = "transparent",
+                  floats = "transparen"",
                 };
               }
             '';
