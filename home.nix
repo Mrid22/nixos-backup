@@ -269,7 +269,7 @@
               cmp.enable = true;
               mappings = {
                 panel = {
-                  open = "<leader>c";
+                  open = "<leader>C";
                   accept = "<C-e>";
                 };
               };
