@@ -388,7 +388,7 @@
           ui = {
             colorizer = {
               enable = true;
-              setuoOpts = {
+              setupOpts = {
                 user_default_options = {
                   tailwind = true;
                 };
