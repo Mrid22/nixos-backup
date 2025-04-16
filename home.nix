@@ -268,9 +268,9 @@
               enable = true;
               cmp.enable = true;
               mappings = {
-                accept = "<C-e>";
                 panel = {
-                  open = "<C-a>";
+                  open = "<leader>c";
+                  accept = "<C-e>";
                 };
               };
             };
