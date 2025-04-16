@@ -384,6 +384,16 @@
               codeAction = "<leader>ca";
               renameSymbol = "<leader>rn";
             };
+            ui = {
+              colorizer = {
+                enable = true;
+                setuoOpts = {
+                  user_default_options = {
+                    tailwind = true;
+                  };
+                };
+              };
+            };
           };
         };
       };
