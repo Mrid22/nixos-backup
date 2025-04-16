@@ -27,6 +27,7 @@
       waybar
       prismlauncher
       nodejs_23
+      pnpm
     ];
   };
 
