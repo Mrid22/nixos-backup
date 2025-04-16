@@ -185,7 +185,31 @@
     };
     waybar = {
       enable = true;
-      settings = [];
+      settings = {
+        height = 30;
+        spacing = 4;
+        modules-left = [
+          "hyprland/workspaces"
+          "hyprland/mode"
+        ];
+        modules-center = [
+          "hyprland/window"
+        ];
+        modules-right = [
+          "idle_inhibitor"
+          "pulseaudio"
+          "network"
+          "battery"
+          "clock"
+        ];
+        "idle_inhibitor" = {
+          format = "{icon}";
+          format-icons = {
+            activated = "";
+            deactivated = "";
+          };
+        };
+      };
       style = ''
 
       '';
