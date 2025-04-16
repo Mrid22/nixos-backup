@@ -36,6 +36,11 @@
   fonts.packages = with pkgs; [
     font-awesome
     nerd-fonts.fira-code
+    poweline-fonts
+    powerline-symbols
+    noto-fonts-enoji
+    noto-fonts-cjk
+    noto-fonts
   ];
 
   # Enable the X11 windowing system.
