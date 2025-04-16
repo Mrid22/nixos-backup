@@ -24,6 +24,7 @@
       prettierd
       waybar
       prismlauncher
+      nodejs_23
     ];
   };
 
