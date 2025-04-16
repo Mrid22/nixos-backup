@@ -186,8 +186,10 @@
     waybar = {
       enable = true;
       settings = {
-        height = 30;
-        spacing = 4;
+        mainBar = {
+          height = 30;
+          spacing = 4;
+        };
         modules-left = [
           "hyprland/workspaces"
           "hyprland/mode"
