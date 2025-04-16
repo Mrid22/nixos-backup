@@ -127,9 +127,6 @@
       wallpaper = ",/etc/nixos/nixos-backup/wallpaper.jpg";
     };
   };
-  hyprlock = {
-    enable = true;
-  };
   gtk = {
     enable = true;
     theme = {
@@ -192,6 +189,18 @@
       style = ''
 
       '';
+    };
+    hyprlock = {
+      enable = true;
+      settings = {
+        general = {
+          disable_loading_bar = true;
+          hide_cursor = true;
+        };
+        background = {
+          path = "wallpaper.jpg";
+        };
+      };
     };
     lazygit = {
       enable = true;
