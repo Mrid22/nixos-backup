@@ -34,6 +34,7 @@
   i18n.defaultLocale = "en_HK.UTF-8";
 
   fonts.packages = with pkgs; [
+    font-awesome
     nerd-fonts.fira-code
   ];
 
