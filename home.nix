@@ -294,7 +294,7 @@
                 sidebars = "transparent",
                 floats = "transparent",
               }
-            ''
+            '';
           };
           comments = {
             comment-nvim.enable = true;
