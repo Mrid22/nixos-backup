@@ -200,6 +200,12 @@
         background = {
           path = "wallpaper.jpg";
         };
+        input-field = {
+          size = 300, 60;
+          outline_thickness = 0;
+          inner_color = "rgba(0,0,0,0.5)";
+          fade_on_empty = false;
+        };
       };
     };
     lazygit = {
