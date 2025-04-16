@@ -290,9 +290,11 @@
             style = "storm";
             transparent = true;
             extraConfig = ''
-              styles = {
-                sidebars = "transparent",
-                floats = "transparent",
+              require('tokyonight').setup {
+                styles = {
+                  sidebars = "transparent",
+                  floats = "transparent",
+                }
               }
             '';
           };
