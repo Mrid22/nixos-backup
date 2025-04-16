@@ -291,7 +291,7 @@
               enable = true;
             };
             mappings = {
-              open = "<leader>t"
+              open = "<leader>t";
             };
           };
           theme = {
