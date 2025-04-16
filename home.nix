@@ -293,7 +293,7 @@
               opts = {
                 styles = {
                   sidebars = "transparent",
-                  floats = "transparen"",
+                  floats = "transparent",
                 };
               }
             '';
