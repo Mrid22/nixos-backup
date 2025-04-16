@@ -91,10 +91,7 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  nixpkgs.config.allowUnfreePredicate = pkg:
-    builtins.elem (lib.getName pkg) [
-      "lunarclient"
-    ];
+  nixpkgs.config.allowUnfree = true;
   users.users.mridula = {
     isNormalUser = true;
     description = "Mridul Agarwal";
