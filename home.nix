@@ -264,6 +264,9 @@
           };
           # Plugins
           assistant = {
+            codecompanion = {
+              enable = true;
+            };
             copilot = {
               enable = true;
               cmp.enable = true;
