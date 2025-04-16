@@ -267,8 +267,13 @@
             copilot = {
               enable = true;
               cmp.enable = true;
+              mappings = {
+                accept = "<C-e>";
+                panel = {
+                  open = "<C-a>";
+                };
+              };
             };
-            codecompanion-nvim.enable = true;
           };
           dashboard = {
             alpha = {
