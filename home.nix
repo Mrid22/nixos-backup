@@ -157,6 +157,7 @@
         c = "cd /etc/nixos/nixos-backup";
         r = "reload";
         u = "update";
+        gs = "autogit";
       };
     };
     kitty = {
@@ -219,7 +220,11 @@
         };
       };
       style = ''
-
+        window#waybar {
+          background-color: rgba(0, 0, 0, 0.5);
+          border-radius: 10px;
+          padding: 5px;
+        }
       '';
     };
     hyprlock = {
