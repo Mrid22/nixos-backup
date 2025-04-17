@@ -157,7 +157,7 @@
         c = "cd /etc/nixos/nixos-backup";
         r = "reload";
         u = "update";
-        gs = "autogit";
+        g = "autogit";
       };
     };
     kitty = {
