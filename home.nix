@@ -391,6 +391,7 @@
                 ts-error-translator.enable = true;
               };
             };
+            yaml.enable = true;
           };
           lsp = {
             formatOnSave = true;
