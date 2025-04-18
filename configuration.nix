@@ -119,6 +119,8 @@
     kdePackages.ark
     zsync
     brightnessctl
+    upower
+    upower-notify
     (import ./reload.nix {inherit pkgs;})
     (import ./update.nix {inherit pkgs;})
     (import ./autogit.nix {inherit pkgs;})
