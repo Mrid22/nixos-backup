@@ -294,6 +294,21 @@
               mode = "n";
               action = ":Neotree<CR>";
             }
+            {
+              key = "<leader>c";
+              mode = "n";
+              action = ":CodeCompanionChat<CR>";
+            }
+            {
+              key = "<leader>u";
+              mode = "n";
+              action = ":Update<CR>";
+            }
+            {
+              key = "<leader>g";
+              mode = "n";
+              action = ":AutoGit<CR>";
+            }
           ];
           statusline.lualine.enable = true;
           autopairs.nvim-autopairs.enable = true;
