@@ -42,7 +42,6 @@
     noto-fonts
   ];
 
-  sound.enable = true;
   # Enable the X11 windowing system.
   services = {
     blueman.enable = true;
@@ -83,9 +82,18 @@
 
   security.rtkit.enable = true;
 
-  hardware.bluetooth = {
-    enable = true;
-    powerOnBoot = true;
+  hardware = {
+    bluetooth = {
+      enable = true;
+      powerOnBoot = true;
+    };
+    alsa.enable = true;
+  };
+    # Enable the touchpad.
+    # Enable synaptics touchpad support (enabled default in most desktopManager).
+    # services.xserver.synaptics.enable = true;
+    # Enable libinput touchpad support (enabled default in most desktopManager).
+    # services.xserver.libinput.enable = true;
   };
 
   # Enable touchpad support (enabled default in most desktopManager).
