@@ -32,7 +32,7 @@
   ];
   boot.extraModprobeConfig = ''
     options snd-hda-intel dmic_detect=0
-  ''
+  '';
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
   systemd.extraConfig = "DefaultLimitNOFILE=2048";
