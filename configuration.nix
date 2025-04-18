@@ -61,6 +61,7 @@
       };
     };
     printing.enable = true;
+    sound.enable = true;
     pulseaudio.enable = false;
     pipewire = {
       enable = true;
