@@ -83,7 +83,6 @@
   security.rtkit.enable = true;
   hardware.alsa = {
     enable = true;
-    support32Bit = true;
   };
   hardware.bluetooth = {
     enable = true;
