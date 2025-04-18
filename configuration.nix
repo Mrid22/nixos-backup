@@ -42,6 +42,7 @@
     noto-fonts
   ];
 
+  sound.enable = true;
   # Enable the X11 windowing system.
   services = {
     blueman.enable = true;
@@ -61,7 +62,6 @@
       };
     };
     printing.enable = true;
-    sound.enable = true;
     pulseaudio.enable = false;
     pipewire = {
       enable = true;
