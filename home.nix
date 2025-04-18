@@ -272,14 +272,12 @@
           assistant = {
             codecompanion-nvim = {
               enable = true;
-            };
-            copilot = {
-              enable = true;
-              cmp.enable = true;
-              mappings = {
-                panel = {
-                  open = "<leader>C";
-                  accept = "<C-e>";
+              setupOpts = {
+                display = {
+                  start_in_insert_mode = true;
+                  chat = {
+                    show_token_count = true;
+                  };
                 };
               };
             };
