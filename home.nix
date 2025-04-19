@@ -222,7 +222,7 @@
       style = ''
         window#waybar {
           background-color: rgba(0, 0, 0, 0.5);
-          border-radius: 10px;
+          border-radius: 0px;
           padding: 5px;
         }
       '';
