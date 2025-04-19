@@ -267,6 +267,7 @@
           options = {
             tabstop = 2;
             shiftwidth = 2;
+            mouse = "v";
           };
           # Plugins
           assistant = {
